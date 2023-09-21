@@ -1,0 +1,37 @@
+body {
+    background-color: #f9e795;
+    text-align: center;
+}
+
+h1 {
+    background-color: #F96167;
+    text-align: center;
+}
+
+h2 {
+    background-color: #F96167;
+    text-align: center;
+}
+
+.link {
+    font-size: 150%;
+}
+
+#prev {
+    text-align: left;
+}
+
+#next {
+    text-align: right;
+}
+
+#list1 {
+    list-style-position: inside;
+    font-size: 150%;
+}
+
+#about {
+    width: 50%;
+    font-size: 150%;
+    margin: auto;
+}
