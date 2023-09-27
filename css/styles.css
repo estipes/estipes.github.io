@@ -35,3 +35,21 @@ h2 {
     font-size: 150%;
     margin: auto;
 }
+
+.link {
+    background-color: #F96167;
+    border: 5px #96f995;
+}
+
+.link:hover{
+    background-color:#96f995;
+}
+
+.nav {
+    background-color: #F96167;
+    text-align: center;
+}
+
+#userM {
+    width: 200px;
+}
