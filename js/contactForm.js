@@ -38,6 +38,6 @@ let contactFormSubmit = () => {
             user_message: message
         };
         emailjs.send("service_2f7ujc8", "template_i4bg7km", emailParams);
-        location.href="https://estipes.github.io/"
+        window.location="https://estipes.github.io/"
     }
 }
