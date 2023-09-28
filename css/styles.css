@@ -13,8 +13,26 @@ h2 {
     text-align: center;
 }
 
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F96167;
+}
+
+.navbar {
+    float: left;
+}
+
+
 .link {
     font-size: 150%;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
 }
 
 #prev {
@@ -36,22 +54,6 @@ h2 {
     margin: auto;
 }
 
-.link {
-    background-color: #F96167;
-    border: 5px #96f995;
-    margin: 20px;
-    padding: 10px;
-}
-
 .link:hover{
     background-color:#96f995;
-}
-
-.nav {
-    background-color: #F96167;
-    text-align: center;
-}
-
-#userM {
-    width: 500px;
 }
