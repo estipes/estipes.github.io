@@ -39,6 +39,8 @@ h2 {
 .link {
     background-color: #F96167;
     border: 5px #96f995;
+    margin: 20px;
+    padding: 10px;
 }
 
 .link:hover{

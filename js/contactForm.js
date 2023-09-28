@@ -11,18 +11,18 @@ let contactFormSubmit = () => {
         alert("Please enter first name");
     }
     else if(lname == null || lname == ""){
-        alert("Please enter first name");
+        alert("Please enter last name");
     }
     else if(email == null || email == ""){
         alert("Please enter an email");
     }
-    else if(email != validEmail){
+    else if(!email.match(validEmail)){
         alert("Please enter a valid email");
     }
     else if(phone == null || phone == ""){
         alert("Please enter phone number");
     }
-    else if(phone != validPhone){
+    else if(!phone.match(validPhone)){
         alert("Please enter a valid phone number")
     }
     else if(message == null || message == ""){
