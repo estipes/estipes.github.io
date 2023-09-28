@@ -7,28 +7,30 @@ let contactFormSubmit = () => {
     let message = form.user_message.value;
     let validEmail = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
     let validPhone = /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/;
+    let errorM = "";
     if(fname == null || fname == "") {
-        alert("Please enter first name");
+        errorM += "Please enter first name<br>";
     }
-    else if(lname == null || lname == ""){
-        alert("Please enter last name");
+    if(lname == null || lname == ""){
+        errorM += "Please enter last name<br>";
     }
-    else if(email == null || email == ""){
-        alert("Please enter an email");
+    if(email == null || email == ""){
+        errorM += "Please enter an email<br>";
     }
-    else if(!email.match(validEmail)){
-        alert("Please enter a valid email");
+    if(!email.match(validEmail)){
+        errorM += "Please enter a valid email<br>";
     }
-    else if(phone == null || phone == ""){
-        alert("Please enter phone number");
+    if(phone == null || phone == ""){
+        errorM += "Please enter phone number<br>";
     }
-    else if(!phone.match(validPhone)){
-        alert("Please enter a valid phone number")
+    if(!phone.match(validPhone)){
+        errorM += "Please enter a valid phone number<br>";
     }
-    else if(message == null || message == ""){
-        alert("Please enter a message");
+    if(message == null || message == ""){
+        errorM += "Please enter a message";
     }
-    else{
+    if(errorM == ""){
+        document.getElementById("errorMessage").innerHTML = ``;
         emailjs.init("49TdmJWKabdoNcKuL");
         const emailParams = {
             user_fname: fname,
@@ -38,5 +40,8 @@ let contactFormSubmit = () => {
             user_message: message
         };
         emailjs.send("service_2f7ujc8", "template_i4bg7km", emailParams);
+    }
+    else {
+        document.getElementById("errorMessage").innerHTML =`${errorM}`;
     }
 }
