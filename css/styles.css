@@ -75,6 +75,20 @@ h2 {
     background-color: #F96167;
 }
 
+.ddlin {
+    font-size: 150%;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    background-color: #F96167;
+    color:#f9e795;
+}
+
+.ddlin:hover {
+    background-color: #96f995;
+}
+
 .dropdownButtonL:hover {
     background-color:#96f995;
 }
