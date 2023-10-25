@@ -57,3 +57,14 @@ h2 {
 .link:hover{
     background-color:#96f995;
 }
+
+.dropdownStuff {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdownStuff {
+    display: block;
+}
