@@ -55,7 +55,8 @@ h2 {
 }
 
 .link:hover{
-    background-color:#96f995;
+    background-color:#f9e795;
+    color:#F96167;
 }
 
 .dropdownStuff {
@@ -86,11 +87,13 @@ h2 {
 }
 
 .ddlin:hover {
-    background-color: #96f995;
+    background-color:#f9e795;
+    color:#F96167;
 }
 
-.dropdownButtonL:hover {
-    background-color:#96f995;
+.dropdownButton:hover {
+    background-color:#f9e795;
+    color:#F96167;
 }
 
 .dropdown:hover .dropdownStuff {
