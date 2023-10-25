@@ -65,6 +65,19 @@ h2 {
     z-index: 1;
 }
 
+.dropdownButton {
+    font-size: 150%;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #f9e795;
+}
+
+.dropdownButtonL:hover {
+    background-color:#96f995;
+}
+
 .dropdown:hover .dropdownStuff {
     display: block;
 }
