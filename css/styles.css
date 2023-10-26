@@ -1,15 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
 .nonFooter {
     position: relative;
     text-align: center;
     background-color: #f9e795;
     min-height: 100vh;
     margin: 0;
-}
-
-.nonFooter::after {
-    content: '';
-    display: block;
-    height: 50px;
+    flex:1;
 }
 
 h1 {
@@ -23,11 +22,9 @@ h2 {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    height: 50px;
     text-align: center;
+    background-color: #f9e795;
 }
 
 .nav {
