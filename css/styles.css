@@ -1,8 +1,6 @@
 body {
     text-align: center;
     background-color: #f9e795;
-    min-height: 100vh;
-    display: flex;
 }
 
 h1 {
