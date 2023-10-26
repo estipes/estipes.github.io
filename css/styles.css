@@ -1,4 +1,4 @@
-body {
+.nonFooter {
     position: relative;
     text-align: center;
     background-color: #f9e795;
@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-body::after {
+.nonFooter::after {
     content: '';
     display: block;
     height: 50px;

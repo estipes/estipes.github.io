@@ -16,37 +16,39 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <ul class="nav">
-        <li class="navbar"><a class="link" href="https://estipes.github.io/"> Home </a></li>
-        <li class="navbar"><a class="link" href="https://estipes.github.io/projects.html">Projects</a></li>
-        <li class="navbar"><a class="link" href="https://estipes.github.io/resume.html">Resume</a></li>
-        <li class="navbar"><a class="link" href="https://estipes.github.io/contactForm.html"> Contact Form </a></li>
-        <li class="navbar">
-            <div class="dropdown">
-                <button class="dropdownButton">Class Links</button>
-                <div class="dropdownStuff">
-                    <a class="ddlin" href="https://mattm401.github.io/">CISC474 Course Website</a>
-                    <a class="ddlin" href="https://andrewl15.github.io/">Next Student</a>
-                    <a class="ddlin" href="https://englandz.github.io/">Previous Student</a>
+    <div class="nonFooter">
+        <ul class="nav">
+            <li class="navbar"><a class="link" href="https://estipes.github.io/"> Home </a></li>
+            <li class="navbar"><a class="link" href="https://estipes.github.io/projects.html">Projects</a></li>
+            <li class="navbar"><a class="link" href="https://estipes.github.io/resume.html">Resume</a></li>
+            <li class="navbar"><a class="link" href="https://estipes.github.io/contactForm.html"> Contact Form </a></li>
+            <li class="navbar">
+                <div class="dropdown">
+                    <button class="dropdownButton">Class Links</button>
+                    <div class="dropdownStuff">
+                        <a class="ddlin" href="https://mattm401.github.io/">CISC474 Course Website</a>
+                        <a class="ddlin" href="https://andrewl15.github.io/">Next Student</a>
+                        <a class="ddlin" href="https://englandz.github.io/">Previous Student</a>
+                    </div>
                 </div>
-            </div>
-        </li>
-    </ul>
-    <h1>Contact Form</h1> 
-    <form id="contactForm" name="contactForm">
-        <label>First Name:</label>
-        <input type="text" name="user_fname" required><br>
-        <label>Last Name:</label>
-        <input type="text" name="user_lname" required><br>
-        <label>Email:</label>
-        <input type="text" name="user_email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br>
-        <label>Phone(123-456-7890):</label>
-        <input type="text" name="user_phone" pattern="^[0-9]{3}-[0-9]{3}-[0-9]{4}$" required><br>
-        <label>Message:</label>
-        <textarea name="user_message" required></textarea><br>
-        <input type="submit" id="submit" value="Submit" onclick="contactFormSubmit()">
-   </form>
-   <div id="errorMessage"></div>
+            </li>
+        </ul>
+        <h1>Contact Form</h1> 
+        <form id="contactForm" name="contactForm">
+            <label>First Name:</label>
+            <input type="text" name="user_fname" required><br>
+            <label>Last Name:</label>
+            <input type="text" name="user_lname" required><br>
+            <label>Email:</label>
+            <input type="text" name="user_email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br>
+            <label>Phone(123-456-7890):</label>
+            <input type="text" name="user_phone" pattern="^[0-9]{3}-[0-9]{3}-[0-9]{4}$" required><br>
+            <label>Message:</label>
+            <textarea name="user_message" required></textarea><br>
+            <input type="submit" id="submit" value="Submit" onclick="contactFormSubmit()">
+        </form>
+        <div id="errorMessage"></div>
+    </div>
+   <footer><p>Email: estipes@udel.edu</p></footer>
 </body>
-<footer><p>Email: estipes@udel.edu</p></footer>
 </html>
