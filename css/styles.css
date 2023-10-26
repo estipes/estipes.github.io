@@ -76,7 +76,7 @@ footer {
     display: none;
     position: absolute;
     min-width: 160px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .dropdownButton {
@@ -109,4 +109,96 @@ footer {
 
 .dropdown:hover .dropdownStuff {
     display: block;
+}
+
+.drdo {
+    position: fixed;
+}
+.drdoStuff {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 2;
+}
+
+.drdoBtn {
+    font-size: 150%;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #f9e795;
+    background-color: #F96167;
+}
+
+.drdoLin {
+    font-size: 150%;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    background-color: #F96167;
+    color:#f9e795;
+}
+
+.drdoLin:hover {
+    background-color:#fb1119;
+}
+
+.drdoBtn:hover {
+    background-color:#fb1119;
+}
+
+.drdo:hover .drdoStuff {
+    display: block;
+}
+
+#tournPic {
+    width: 50%;
+    height: 50%;
+}
+
+.projLink{
+    font-size: 150%;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    margin: auto;
+    width: 48%;
+    text-decoration: none;
+    background-color: #F96167;
+    color:#f9e795;
+}
+
+.projLink:hover {
+    background-color:#fb1119;
+}
+
+.projDivider {
+    width: 100%;
+    color:#fb1119;
+    background-color:#fb1119;
+    height: 5px;
+}
+
+#projNa {
+    position: fixed;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:#fb1119;
+}
+
+.projnaLink {
+    font-size: 150%;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #f9e795;
+}
+
+.projnaLink:hover {
+    background-color: #7a0307;
 }
