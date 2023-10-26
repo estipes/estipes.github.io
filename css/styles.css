@@ -60,8 +60,7 @@ footer {
 }
 
 .link:hover{
-    background-color:#f9e795;
-    color:#F96167;
+    background-color:#fb1119;
 }
 
 .dropdownStuff {
@@ -92,13 +91,11 @@ footer {
 }
 
 .ddlin:hover {
-    background-color:#f9e795;
-    color:#F96167;
+    background-color:#fb1119;
 }
 
 .dropdownButton:hover {
-    background-color:#f9e795;
-    color:#F96167;
+    background-color:#fb1119;
 }
 
 .dropdown:hover .dropdownStuff {
