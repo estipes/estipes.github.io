@@ -158,6 +158,11 @@ footer {
     height: 50%;
 }
 
+.docPic {
+    width: 50%;
+    height: 25%;
+}
+
 .projLink{
     font-size: 150%;
     display: block;
